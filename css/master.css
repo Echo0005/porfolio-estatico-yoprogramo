@@ -1,0 +1,123 @@
+
+body{
+    font-family: sans-serif;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmotionarray-portfolio.imgix.net%2Fpreview-90490-85a71cb06fc0583bd0976d8a58e16596-high.jpg&f=1&nofb=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Navegacion */
+
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    align-items: center;
+    min-height: 70px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+}
+
+.logo-img{
+    height: 90px;
+}
+
+
+
+.nav{
+    padding-right: 30px;
+}
+.nav-link {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    
+}
+
+
+/* Banner */
+
+.banner{
+    width: 100%;
+    height: 1200px;
+}
+
+
+
+/* Persona */
+.persona{
+    padding: 20px 0px 20px 200px;
+    background-color: white;
+}
+.foto{
+    height: 300px;
+    width: auto;    
+}
+
+
+/* Educacion */
+
+.edu-logo{
+
+    height: 200px;
+    width: auto;
+  
+    display: inline-block;
+    margin-top: -70px;
+}
+.es9-div{
+    padding: 30px;
+}
+
+.inline1{
+    display: inline-block;
+}
+
+.pad1{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+/* */
+
+.text-center{
+    text-align: center;
+}
+
+.tag{
+
+    margin: 100px 0px 100px 0px;
+
+    padding-top: 15px;
+    padding-bottom: 40px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
