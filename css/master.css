@@ -65,25 +65,17 @@ body{
 /* Educacion */
 
 .edu-logo{
-
     height: 200px;
     width: auto;
   
-    display: inline-block;
-    margin-top: -70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.es9-div{
+.edu-tag{
     padding: 30px;
 }
 
-.inline1{
-    display: inline-block;
-}
-
-.pad1{
-    margin-top: 30px;
-    margin-left: 10px;
-}
 
 /* */
 
@@ -91,24 +83,44 @@ body{
     text-align: center;
 }
 
-.tag{
-
-    margin: 100px 0px 100px 0px;
-
-    padding-top: 15px;
-    padding-bottom: 40px;
-    background-color: white;
-
+.center{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.tag{
+    margin: 100px 0px 100px 0px;
+
+    padding-top: 15px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+.tag-close{
+    margin: 100px 0px 20px 0px;
+
+    padding-top: 15px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+
+p{
+    margin: 0px;
+}
+
 ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 10px 0px 0px 0px;
     padding: 0px;
+}
+
+footer {
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+    font-size:medium;
+    text-align: center;
+    color: orangered;
+    background-color:rgb(1, 0, 85);
 }
 
 
